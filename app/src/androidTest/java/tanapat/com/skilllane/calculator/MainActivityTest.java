@@ -30,6 +30,7 @@ public class MainActivityTest {
 
     @Test
     public void plus_1_and_1_should_result_2() {
+        //set for screen grab
         Screengrab.setDefaultScreenshotStrategy(new UiAutomatorScreenshotStrategy());
         CalculatorPage.กรอกเลขตัวแรก("1");
 
